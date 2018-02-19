@@ -1,0 +1,16 @@
+CREATING DYNAMIC ARRAY:
+
+double *SMA2; int *SMAperiod= new int;		 	// dynamic array for SMA2, assume that we are goona need SMA, 
+SMA2 = new double[ndays]; bool SMAflag=0;    	//if not just delete it SMAfalg =0 afterwards;
+delete [] SMA2;  // deleting dynamic arrays             		
+delete SMAperiod; /// deleting dynamic variables   
+
+STRING TO INT:
+
+dates[0]="0999"; 
+	int value = atoi(dates[0].c_str());	
+	cout<<value+2<<endl;
+	Candle candleInfo[32];
+	cout<<candleInfo[3].day;
+
+                    
